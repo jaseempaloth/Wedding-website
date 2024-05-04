@@ -434,6 +434,7 @@ img {
 .wrap {
 	display: -webkit-flex;
 	display: flex;
+	flex-direction: column;
 	-webkit-flex-wrap: wrap;
 	flex-wrap: wrap;
 	-webkit-justify-content: center;
@@ -466,7 +467,6 @@ body {
 .title {
 	margin-bottom: 40px;
 }
-
 #time {
 	width: auto;
 	height: auto;
@@ -475,7 +475,6 @@ body {
 	border-radius: 20px;
 	font-size: 16px;
 }
-
 .venue {
 	width: auto;
 	height: auto;
